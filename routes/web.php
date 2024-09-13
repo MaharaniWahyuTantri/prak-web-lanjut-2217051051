@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/profile', [ProfileController::class, 'profile']);
+Route::get('/profile/{nama}/{kelas}/{npm}', [ProfileController::class, 'profile']);

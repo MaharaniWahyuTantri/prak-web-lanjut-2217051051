@@ -13,14 +13,14 @@
         <td><?= $nama ?></td>
     </tr>
     <tr>
-        <td>Npm</td>
-        <td>:</td>
-        <td><?= $npm ?></td>
-    </tr>
-    <tr>
         <td>Kelas</td>
         <td>:</td>
         <td><?= $kelas ?></td>
+    </tr>
+    <tr>
+        <td>Npm</td>
+        <td>:</td>
+        <td><?= $npm ?></td>
     </tr>
 </body>
 </html>
