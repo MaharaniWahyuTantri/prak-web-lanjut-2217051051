@@ -6,7 +6,21 @@
         <title>Document</title>
     </head>
 <body>
-    <h1>Ini Halaman Profile</h1>
-
+    <h1>Ini Profile woeeeeey!</h1>
+    <tr>
+        <td>Nama</td>
+        <td>:</td>
+        <td><?= $nama ?></td>
+    </tr>
+    <tr>
+        <td>Npm</td>
+        <td>:</td>
+        <td><?= $npm ?></td>
+    </tr>
+    <tr>
+        <td>Kelas</td>
+        <td>:</td>
+        <td><?= $kelas ?></td>
+    </tr>
 </body>
 </html>
